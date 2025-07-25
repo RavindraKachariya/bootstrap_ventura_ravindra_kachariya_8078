@@ -22,7 +22,9 @@ bootstrap_ventura_ravindra_kachariya_8078/
 │
 ├── pages/
 │   ├── apps.html              # Apps page
-│   └── product.html           # Product details
+│   ├── blog.html              # Product details
+│   ├── pricing.html           # Blog page
+│   └── product.html           # Pricing page
 │
 ├── index.html                 # Homepage
 └── README.md                  # Project documentation

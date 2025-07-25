@@ -36,8 +36,8 @@
                 <ul class="d-none d-lg-flex list-unstyled mb-0 gap-4 align-items-center">
                     <li><a href="../index.html" class="text-decoration-none text-dark">Home</a></li>
                     <li><a href="./product.html" class="text-decoration-none text-dark">Product</a></li>
-                    <li><a href="./apps.html" class="text-decoration-none text-primary">Apps</a></li>
-                    <li><a href="./blog.html" class="text-decoration-none text-dark">Blog</a></li>
+                    <li><a href="./apps.html" class="text-decoration-none text-dark">Apps</a></li>
+                    <li><a href="./blog.html" class="text-decoration-none text-primary">Blog</a></li>
                     <li><a href="./pricing.html" class="text-decoration-none text-dark">Pricing</a></li>
                 </ul>
             </div>
@@ -71,8 +71,8 @@
                 <ul class="list-unstyled mb-0">
                     <li class="mb-2"><a href="../index.html" class="text-decoration-none text-dark">Home</a></li>
                     <li class="mb-2"><a href="./product.html" class="text-decoration-none text-dark">Product</a></li>
-                    <li class="mb-2"><a href="./apps.html" class="text-decoration-none text-primary">Apps</a></li>
-                    <li class="mb-2"><a href="./blog.html" class="text-decoration-none text-dark">Blog</a></li>
+                    <li class="mb-2"><a href="./apps.html" class="text-decoration-none text-dark">Apps</a></li>
+                    <li class="mb-2"><a href="./blog.html" class="text-decoration-none text-primary">Blog</a></li>
                     <li class="mb-2"><a href="./pricing.html" class="text-decoration-none text-dark">Pricing</a></li>
                 </ul>
                 <div class="d-flex flex-column gap-3 mt-3">
@@ -87,88 +87,124 @@
     </header>
     <!-- Header End -->
 
-    <!-- Hero Section Start -->
-    <section class="container py-5">
-        <div class="text-center">
-            <h1 class="fw-bold display-5 text-dark mb-3">
-                On all platforms. <br />
-                Built for everyone. </h1>
-            <p class="text-muted mb-4">
-                Ventura gives you both the foundation and flexibility to build and grow
-                digital capabilites and deliver customer experiences. </p>
-            <div class="d-flex justify-content-center flex-row align-items-center gap-3">
-                <a href="#" class="btn btn-primary rounded-3 px-4 py-2">Download now</a>
-                <a href="#" class="d-flex align-items-center text-decoration-none text-dark">
-                    <img src="../assets/icon/play.png" alt="Play" height="20" class="me-1">
-                    Watch Video
+    <!-- Blog Header Section Start -->
+    <section class="container py-5 d-flex justify-content-between align-items-center">
+        <div>
+            <h1 class="fw-bold text-dark">Blog</h1>
+            <div class="dropdown">
+                <a class="text-primary fw-semibold text-decoration-none dropdown-toggle" href="#" role="button"
+                    id="postDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    All Post
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="postDropdown">
+                    <li><a class="dropdown-item" href="#">All Post</a></li>
+                    <li><a class="dropdown-item" href="#">Design</a></li>
+                    <li><a class="dropdown-item" href="#">Development</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-    <!-- Hero Section End -->
 
-    <!-- Choose Us 1 Section Start -->
-    <section class="py-5 mt-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center">
-                    <img src="../assets/image/app1.png" class="img-fluid" alt="Dashboard Image">
-                </div>
-                <div class="col-md-6">
-                    <h6 class="text-primary text-uppercase mb-3">Choose Us</h6>
-                    <h2 class="fw-bold mb-3">Placeholder title goes<br>right here</h2>
-                    <p class="text-muted mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi
-                        efficitur Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                    <hr>
-                    <a href="#" class="btn btn-primary rounded-3 px-4 py-2">Download for PC</a>
-                </div>
-            </div>
+        <div class="input-group w-25">
+            <input type="text" class="form-control rounded-start" placeholder="Search..." aria-label="Search">
+            <span class="input-group-text bg-white border-start-0 rounded-end">
+                <i class="bi bi-search text-dark"></i>
+            </span>
         </div>
     </section>
-    <!-- Choose Us 1 Section Start -->
+    <!-- Blog Header Section End -->
 
-    <!-- Choose Us 2 Section Start -->
-    <section class="py-5 mt-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h6 class="text-primary text-uppercase mb-3">Choose Us</h6>
-                    <h2 class="fw-bold mb-3">Placeholder title goes<br>right here</h2>
-                    <p class="text-muted mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi
-                        efficitur Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                    <hr>
-                    <a href="#" class="btn btn-primary rounded-3 px-4 py-2">Download for Web</a>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="../assets/image/app2.png" class="img-fluid" alt="Dashboard Image">
-                </div>
+    <!-- Blog Card Section Start -->
+    <section class="container py-3">
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
             </div>
         </div>
-    </section>
-    <!-- Choose Us 2 Section Start -->
 
-    <!-- Choose Us 3 Section Start -->
-    <section class="py-5 mt-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center">
-                    <img src="../assets/image/app3.png" class="img-fluid" alt="Dashboard Image">
-                </div>
-                <div class="col-md-6">
-                    <h6 class="text-primary text-uppercase mb-3">Choose Us</h6>
-                    <h2 class="fw-bold mb-3">Placeholder title goes<br>right here</h2>
-                    <p class="text-muted mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi
-                        efficitur Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                    <hr>
-                    <a href="#" class="btn btn-primary rounded-3 px-4 py-2">Download for Phone</a>
-                </div>
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
             </div>
         </div>
+
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4">
+                <img src="../assets/image/b-card.png" alt="Blog Image" class="img-fluid rounded-4">
+            </div>
+            <div class="col-md-8">
+                <p class="text-primary fw-semibold text-uppercase mb-1">Theme</p>
+                <h3 class="fw-bold text-dark">Blog title goes here</h3>
+                <p class="text-muted mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi,
+                    efficitur.</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <small class="text-muted">09 Month 2022</small>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-outline-secondary px-4 py-2 fw-semibold">Load more</button>
+        </div>
+
     </section>
-    <!-- Choose Us 3 Section Start -->
+    <!-- Blog Card Section End -->
 
     <!-- Footer Section Start -->
     <footer class="py-5 bg-white text-dark mt-5">
